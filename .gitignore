@@ -6,6 +6,7 @@
 .pnp.js
 /backend/__pycache__
 /backend/tests
+/backend/security
 /etl/credentials.json
 # testing
 /coverage
