@@ -1,0 +1,12 @@
+#! TODO: 
+[*] Date format
+[*] Empty fields => Make them have 'NA' 'NO'
+[*] Specify last login time (should be web)
+[*] Pagination numbers (add border)
+
+# Unit testing
+[*] Header.tsx
+[*] Table.tsx
+[] LogTable.tsx
+[] Navigation.tsx
+[] Pagination.tsx
