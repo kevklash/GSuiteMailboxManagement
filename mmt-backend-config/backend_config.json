@@ -1,0 +1,10 @@
+{
+    "db_username": "mmt-db-monitor",
+    "db_password": "root",
+    "db_cluster": "mmt-cluster",
+    "db_name": "mmt_dev_v1",
+    "con_string": "@mmt-cluster.xuzrz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "consumer_service_account_email": "kevin.romero_admin@dev.telus.net",
+    "business_service_account_email": "kevin.romero_admin@dev.telus.net",
+    "authorization_account": "kevin.romero_admin@dev.telus.net"
+}

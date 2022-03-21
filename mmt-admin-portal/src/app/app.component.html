@@ -1,0 +1,67 @@
+<body class="neutral-light">
+    <header class="container-fluid neutral-darker-light d-flex align-items-center py-2"><img src="assets/icon.svg"
+      alt="Configuration icon" class="navbar-brand"><span style="font-size: 32px;">Event Logs</span></header>
+    <div class="container-fluid mt-4 mb-4 mx-2">
+        <label for="agents" class="pb-2">Filter by:</label><br>
+        <div class="d-flex align-items-center">
+            <select name="agents" id="agents" style="width: 40%; height: 2em;">
+                <option selected></option>
+                <option value="event_id">Event ID</option>
+                <option value="agent_id">Agent ID</option>
+                <option value="timestamp">Date/Time</option>
+                <option value="customer_email">Customer email</option>
+                <option value="event_type">Event type</option>
+                <option value="google_id">Google ID</option>
+            </select>
+            <button type="button" class="btn btn-sm mx-1">Apply</button>
+        </div>
+        <div class="container-fluid mt-4 mb-4 mx-2">
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Event ID</th>
+                    <th scope="col">Agent ID</th>
+                    <th scope="col">Date/Time</th>
+                    <th scope="col">Customer Email</th>
+                    <th scope="col">Event Type</th>
+                    <th scope="col">Google ID</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>agent1@telus.com</td>
+                    <td>Thursday, May 13, 2021, 11:24:02 AM MT</td>
+                    <td>user1@telus.net</td>
+                    <td class="tooltip-test" title="Resets the user's sign-in cookies, which also signs them out of their account across all devices and browsers.">Reset sign in cookies</td>
+                    <td>132345326338786050871</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>agent2@telus.com</td>
+                    <td>Thursday, May 13, 2021, 10:22:54 AM MT</td>
+                    <td>user2@telus.net</td>
+                    <td class="tooltip-test" title="Resets the user's password">Password change</td>
+                    <td>166345326338786063214</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>agent3@telus.com</td>
+                    <td>Thursday, May 13, 2021, 9:33:17 AM MT</td>
+                    <td>user3@telus.net</td>
+                    <td class="tooltip-test" title="Resets the user's password">Password change</td>
+                    <td>154745326337563014852</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>agent4@telus.com</td>
+                    <td>Thursday, May 13, 2021, 9:30:26 AM MT</td>
+                    <td>user4@telus.net</td>
+                    <td class="tooltip-test" title="Reactivates a suspended user">Unsuspend user</td>
+                    <td>166845326338786047521</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </body>

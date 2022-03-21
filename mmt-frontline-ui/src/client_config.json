@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Endpoint",
+        "value": "http://127.0.0.1:5000/frontline/info/"
+    },
+    {
+        "id": 2,
+        "name": "Endpoint_plain",
+        "value": "http://127.0.0.1:5000/frontline/"
+    },
+    {
+        "id": 3,
+        "name": "Initialize",
+        "value": "http://localhost:5001/mmt_frontline/accessWorkflow"
+    },
+    {
+        "id": 4,
+        "name": "Check_request",
+        "value": "http://localhost:5001/admin/lookup_by_agent/"
+    }
+]
